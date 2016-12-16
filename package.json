@@ -1,14 +1,14 @@
 {
   "name": "new3",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "Index.js",
   "dependencies": {
     "bulma": "^0.2.3",
     "express": "^4.14.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node Index.js"
   },
   "author": "",
   "license": "ISC",

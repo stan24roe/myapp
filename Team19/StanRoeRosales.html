@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Software Engineering</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold" id="mySidenav"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Team Irregular</b></h3>
+  </div>
+  <a href="file:///C:/Users/ACER/Desktop/SoftEng/Team19/Team19.html" onclick="w3_close()" class="w3-padding w3-hover-white">Home</a> 
+  <a href="#Headline" onclick="w3_close()" class="w3-padding w3-hover-white">Headline</a> 
+   <a href="#About Me" onclick="w3_close()" class="w3-padding w3-hover-white">About Me</a> 
+   <a href="#List of Job Experience" onclick="w3_close()" class="w3-padding w3-hover-white">List of Job Experience</a> 
+   <a href="#List of Project you did in school" onclick="w3_close()" class="w3-padding w3-hover-white">List of Project you did in school</a> 
+   <a href="#List of Skills" onclick="w3_close()" class="w3-padding w3-hover-white">List of Skills</a> 
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-btn w3-red w3-border w3-border-white w3-margin-right" onclick="w3_open()">☰</a>
+  <span>TEAM Irregular</span>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+ <!-- Header -->
+ <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>TEAM Irregular</b></h1>
+  <h1 class="w3-xxlarge w3-text-red"><b>GOOD MORNING EVERYONE AND HAVE A NICE DAY.</b></h1>
+
+ </div>
+  <!-- Stan Roe Rosales -->
+
+
+  <!-- Headline -->
+  <div class="w3-container" id="Headline" style="margin-top:75px">
+  	 <h1 class="w3-xxlarge w3-text-red"><b>HEADLINE</b></h1>
+    <img src="Stan.jpg" alt="Stan" style="width:250px;height:200px;">
+	<p> A Easy Going but a hardworker and friendly person, Just like friendly nieghborhood Spiderman.</p>
+	<br>
+	<a href="https://web.facebook.com/stan24roe"><li>https://web.facebook.com/stan24roe</li></a> <br>
+	<li>E-Mail: stan24roe@gmail.com</li>	
+	<li>Contact:09208166036</li></p1>
+  </div>
+
+  <!-- About Me -->
+  <div class="w3-container" id="About Me" style="margin-top:75px">
+	<h1 class="w3-xlarge w3-text-red"><b>About ME</b></h1>
+	<p> Hello, I'm Stan Roe P. Rosales, a Computer Engineer Student in Polytechnic University of the Philippines. "A Family that Prays Together Stays Together".
+	</p>
+	
+<!-- List of Job Experience -->
+  <div class="w3-container" id="List of Job Experience" style="margin-top:75px">
+	<h1 class="w3-xlarge w3-text-red"><b>List of Job Experience</b></h1>
+	<p> 
+  <li>Worked at San Juan Municpal Hall - SPES Attendant</li>
+  <li>Worked at National Kidney and Transplant Institute - Computer Programming Training</li>
+  <li>Worked at National Kidney and Transplant Institute - Computer Hardware Training</li>
+	</p>
+	
+<!-- List of Project You Did in School -->
+  <div class="w3-container" id="List of Project You Did in School" style="margin-top:75px">
+	<h1 class="w3-xlarge w3-text-red"><b>List of Project You Did in School</b></h1>
+	<p> 
+  <li>THE DEVELOPMENT OF SMART INTERACTIVE-MIRROR VIA RASPBERRY PI</li>
+  <li>December 2016</li>
+  <li>Practicum II</li>
+  <li>A touch-based system that works as a navigation tool similarly to touch phones this days, but this project focuses on innovating bulletin boards on schools and improving its features.</li>
+	</p>
+	
+	<!-- List of Skills -->
+  <div class="w3-container" id="List of Skills" style="margin-top:75px">
+	<h1 class="w3-xlarge w3-text-red"><b>List of Skills</b></h1>
+	<p> 
+  <li>Basic in Java Programming</li>
+  <li>Basic in VisualBasic.net</li> 
+  <li>PC Formatting</li>
+ <li>Knows English and Filipino language</li>
+ <li>IT Specialist</li>
+	</p>
+	
+  </div>
+  </div>
+  
+ 
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-white w3-container w3-padding-32" style="margin-top:50px;padding-right:45px">
+<p class="w3-right">Powered by <a href=""https://github.com/tartz18/myapp/projects"" title="W3.CSS" target="_blank" class="w3-hover-opacity">
+<img src="GitHub_Logo.png" alt="Github" style="width:50px;height:35px;"></a></p></div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
